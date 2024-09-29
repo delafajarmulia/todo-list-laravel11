@@ -1,0 +1,1 @@
+<h1>halo {{ $name }} dari blade</h1>

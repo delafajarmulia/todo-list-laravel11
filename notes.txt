@@ -1,0 +1,12 @@
+# migration
+php artisan make:migration create_todos_table
+php artisan migrate
+
+# controller
+php artisan make:controller Todo/TodoController
+php artisan make:controller Todo/TodoController --resource -> biar langsung dibuatin semua resourcenya
+
+kalo create untuk menampilkan formnya
+store digunakan untuk penyimanan data
+
+php artisan make:model Todo
